@@ -13,7 +13,9 @@
   <body>
       <div class="container">
           <div class="row">
-              <div class="col-lg-12 mt-5"><h3>My To Do List</h3></div>
+              <div class="col-lg-12 mt-5">
+                <div class="col-lg-12 bg-success p-4 text-align-center text-center"><h3>My To Do List</h3></div>
+            </div>
           </div>
           <div class="container">
               <div class="col-lg-12">
@@ -21,7 +23,7 @@
                       <div class="col-lg-4 bg-white p-4">
                         <form action="add.php" method="POST">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label"><strong>Add New Task :</strong></label>
+                            <label for="judul" class="form-label"><strong>Add New Task :</strong></label>
                             <input type="text" class="form-control" id="judul" name="judul">
                         </div>
                         <button type="submit" class="btn btn-success">Add</button>
